@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://danml.com/js/download.js"></script>
+    <script src="https://p5js.org/assets/js/p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <style type="text/css" media="screen">
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #f2f3ee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+canvas {
+  border: 5px solid #0069aa;
+}
+
+.logo {
+  margin-top: 50px;
+  height: 50px;
+}
+
+.toolbar {
+  padding: 20px 0;
+}
+    </style>
+  </head>
+  <body>
+    <iframe id="iframe" style="display:none;"></iframe>
+    <img class="logo" src="https://grandgarage.eu/_nuxt/img/4e5ff53.svg" alt=""/>
+    <h1>Lasercut Mandala Creator</h1>
+    <div class="toolbar">
+      <button id="clear"><i class="fa fa-trash" aria-hidden="true"></i> Clear</button>
+      <button id="save"><i class="fa fa-save" aria-hidden="true"></i> Save</button>
+    </div>
+  </body>
+</html>
